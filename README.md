@@ -1,5 +1,5 @@
 # connect mysql by docker-compose
-- server 배포파일인 dist/index.js를 dockerfile로 이미지화 
+- server 전체를 dockerfile로 이미지화해 build 된 index.js 실행 
   - 도커파일 스크립트 작성
   - docker build . -t algo-backend
     - 도커파일로 이미지 생성
