@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  database:
+    image: mysql:5.7
+    platform: linux/x86_64
+    container_name: algo
+    ports:
+      - '4306:3306'
+    environment:
+      MYSQL_USER: "chen"
+      MYSQL_ROOT_PASSWORD: "chen"
+      MYSQL_DATABASE: "algo"

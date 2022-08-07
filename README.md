@@ -5,3 +5,4 @@
     - 도커파일로 이미지 생성
     - docker build <Dockerfile 경로> -t <생성할 이미지 이름>
 - docker-compose에서 Mysql, server 이미지 연결
+  - docker-compose up : db 실행
