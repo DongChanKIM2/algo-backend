@@ -8,5 +8,3 @@
   - docker-compose up : db 실행
   - docker에서 algo-backend 돌아가는게 확인되면 mysql workbench에서 db connect로 local port로 연결 (비번은 compose에 기입)
   - 
-
-1. rebase 시작
